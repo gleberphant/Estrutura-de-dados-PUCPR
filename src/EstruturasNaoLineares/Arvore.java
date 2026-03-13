@@ -1,12 +1,12 @@
-public class MyTree {
- 
-    // node esquerdo
-    // node direito 
-    // no cabeça
-    MyNode head;
-    MyNode current;
+package EstruturasNaoLineares;
 
-    public boolean AddNode(MyNode newNode){
+import Nos.NoArvore;
+
+public class Arvore {
+    NoArvore head;
+    NoArvore current;
+
+    public boolean AddNode(NoArvore newNode){
         // balancear arvore para verificar onde deve adicionar o novo no
         
 
@@ -42,7 +42,7 @@ public class MyTree {
 public void Reset(){
     current=head;
 }
-    public MyNode GetCurrent(){
+    public NoArvore GetCurrent(){
         return current;
     }   
     
